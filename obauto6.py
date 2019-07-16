@@ -15,7 +15,7 @@ def openOB():
 
     driver = webdriver.Chrome(service_log_path='NUL',options=opt)
     driver.maximize_window()
-    driver.get("https://10.180.66.20/office")
+    driver.get("https://!!!!!!!!!!!!!!!!!!!")
 
     return driver
 
@@ -37,7 +37,7 @@ def multiSearch(driver):
         for ac in accs:
 
             driver.switch_to.window(driver.window_handles[-1])
-            driver.execute_script("window.open('https://10.180.66.20/admin?action=ADMIN::CUST::GoCustQuery')")
+            driver.execute_script("window.open('https://!!!!!!!!!!!!!!!!!!!')")
             driver.switch_to.window(driver.window_handles[-1])
 
             driver.find_element_by_name('Username').send_keys(ac)
@@ -66,7 +66,7 @@ def multiStatus(driver):
         for ac in accs:
 
             driver.switch_to.window(driver.window_handles[-1])
-            driver.execute_script("window.open('https://10.180.66.20/admin?action=ADMIN::CUST::GoCustQuery')")
+            driver.execute_script("window.open('https://!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')")
             driver.switch_to.window(driver.window_handles[-1])
 
             driver.find_element_by_name('Username').send_keys(ac)
@@ -110,15 +110,15 @@ def multiStatus(driver):
 
 if __name__ == '__main__':
     
-    print("Welcome to OpenBet Office MultiSearch 1.1!")
+    print("Welcome to OB Office MultiSearch 1.1!")
 
     while True:
 
         print("""
 
-%%%%%%  OpenBet MultiSearch Menu  %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%  OB MultiSearch Menu  %%%%%%%%%%%%%%%%%%%%%%%%
 
-        1.Open new OpenBet Office window (for security reasons please login manually)
+        1.Open new OB Office window (for security reasons please login manually)
         2.MultiSearch
         3.MultiStatus
 
@@ -155,7 +155,7 @@ Solution suggestions:
 Solution suggestions:
 1) Check if you have login successfully.
 2) Check if the last Chrome browser window has been closed. If yes, you have to login again.
-3) Check if the OpenBet Office pages have been modified/changed. If yes, then the program needs changes too.
+3) Check if the OB Office pages have been modified/changed. If yes, then the program needs changes too.
                         """)
         elif ch=="3":
             try:
@@ -168,7 +168,7 @@ Solution suggestions:
 Solution suggestions:
 1) Check if you have login successfully.
 2) Check if the last Chrome browser window has been closed. If yes, you have to login again.
-3) Check if the OpenBet Office pages have been modified/changed. If yes, then the program needs changes too.
+3) Check if the OB Office pages have been modified/changed. If yes, then the program needs changes too.
                         """)
         elif ch=="-1":
             try:
