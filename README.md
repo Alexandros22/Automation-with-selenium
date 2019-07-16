@@ -7,7 +7,7 @@ Welcome to Multisearch!
 
  Multisearch is a python program-script that uses python's selenium framework to automates the OB's account search in Google Chrome browser.
 
- Multisearch simulates the copy-paste of the username and the click to find customers in OB's Office page. You can copy-paste all the usernames that you want to search at once and the program will open all the tabs for you. 
+ Multisearch simulates the copy-paste of the username and the click to find customers in OB's page. You can copy-paste all the usernames that you want to search at once and the program will open all the tabs for you. 
 
 
  It uses Python 3.7 and Selenium framework, but the program is in executive format (.exe) and you don not need to install them. To control the Google Chrome webrowser uses the Chrome webdriver (ChromeDriver).
